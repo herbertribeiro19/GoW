@@ -7,6 +7,10 @@
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
 button{
     border: 0;
     background-color: transparent;
@@ -24,5 +28,8 @@ html {
 
 body{
     background: #000201;
+}
 
+body::-webkit-scrollbar {
+    display: none;
 }
