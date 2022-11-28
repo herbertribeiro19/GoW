@@ -4,32 +4,51 @@ header{
     display: flex;
     background-color: #000000;
     align-items: center;
-}
-
-.container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .platform{
+    .container {
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            span{
-                font-weight: 600;
-                font-size: 14px;
-                line-height: 1.5rem; 
-            }
-            ul{
+
+            .platform {
                 display: flex;
-                margin-left: 1.8rem;
-                gap: 8px;
-                li{
-                    padding: 4px 8px;
-                    border: 1.5px solid #ffffff;
+                align-items: center;
+
+                span {
                     font-weight: 600;
                     font-size: 14px;
                     line-height: 1.5rem;
                 }
+
+                ul {
+                    display: flex;
+                    margin-left: 1.8rem;
+                    gap: 8px;
+
+                    li {
+                        padding: 4px 8px;
+                        border: 1.5px solid #ffffff;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+    }
+
+    @media (max-width: 560px) {
+        height: 7rem;
+        .sony{
+            display: none;
+        }
+        .logo{
+            max-width: 140px;
+        }
+        .platform{
+            span{
+                display: none;
             }
         }
+    }
 
 }
+
