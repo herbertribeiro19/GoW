@@ -2,7 +2,7 @@
 
 > Projeto Real
 
-![PREVIEW](../GoW/assets/preview.png)
+![PREVIEW](../GoW/assets/preview2.png)
 
 [Clique aqui para acessar](https://herbertribeiro19.github.io/GoW)
 
