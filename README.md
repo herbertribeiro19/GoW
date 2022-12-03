@@ -2,7 +2,7 @@
 
 > Projeto Real de uma página oficial para o God Of War, jogo exclusivo da Sony, lançado em novembro de 2022.
 
-![PREVIEW](GoW/preview/preview.png)
+![PREVIEW](/GoW/preview/preview.png)
 
 [Clique aqui para acessar](https://herbertribeiro19.github.io/GoW)
 
