@@ -184,6 +184,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            transition: 0.9s;
             span{
                 display: block;
                 text-align: center;
@@ -194,6 +195,10 @@
                 color: white;
             }
         }
+        li:hover{
+            transform: scale(1.1);
+        }
+
     }
 
     @media (max-width: 1200px){
@@ -340,7 +345,13 @@
                 .right{
                     display: flex;
                     align-items: center;
+                    #martelo{
+                        transition: 0.9s;
+                    }
                     .text{
+                        #logotipo{
+                            transition: 0.9s;
+                        }
                         span{
                             display: block;
                             font-weight: 600;
@@ -351,6 +362,12 @@
                             margin-top: 2.2rem;
                         }
                     }
+                }
+                #martelo:hover{
+                    transform: scale(1.1);
+                }
+                #logotipo:hover{
+                    transform: scale(1.1);
                 }
         }
 
@@ -397,6 +414,28 @@
         }
         .slide-characters{
             margin-top: 4rem;
+        }
+    }
+}
+
+.s-base{
+    display: flex;
+    padding: 1rem 0;
+    padding-bottom: 6rem;
+    justify-content: center;
+    h3{
+        font-size: 1.8rem;
+        justify-content: center;
+        strong{
+            color: #64D8CD;
+        }
+    }
+
+    @media (max-width: 560px){
+        margin-top: 3rem;
+        padding-bottom: 6rem;
+        h3{
+            font-size: 1.4rem;
         }
     }
 }

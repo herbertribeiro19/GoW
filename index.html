@@ -19,18 +19,18 @@
     <header>
         <div class="container">
             <img src="./assets/sony.svg" class="sony" alt="" data-aos="fade-right">
-            <img src="./assets/logo.jpg" class="logo" alt="Logo GoW" data-aos="zoom-in">
+            <a href="./index.html"><img src="./assets/logo.jpg" class="logo" alt="Logo GoW" data-aos="zoom-in"></a>
             <div class="platform" data-aos="fade-left">
                 <span>Disponível para</span>
                 <ul>
-                    <li>PS4</li>
-                    <li>PS5</li>
+                    <a target="_blank" href="https://www.playstation.com/pt-br/ps4/?smcid=pdc%3Apt-br%3Aprimary%20nav%3Amsg-hardware%3Aps4"><li>PS4</li></a>
+                    <a target="_blank" href="https://www.playstation.com/pt-br/ps5/?smcid=pdc%3Apt-br%3Aprimary%20nav%3Amsg-hardware%3Aps5"><li>PS5</li></a>
                 </ul>
             </div>
         </div>
     </header>
 
-    <section class="s-hero">
+    <section class="s-hero" id="home">
         <div class="container">
             <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
@@ -41,14 +41,14 @@
                     <p>Os maiores heróis dos nove reinos, lutando por um futuro em que acreditam.</p>
                     <div class="value">
                         <strong>R$ 349,00</strong>
-                        <a href="#" target="_blank">Comprar na pré-venda</a>
+                        <a href="https://my.account.sony.com/central/signin/?duid=00000007000901009f8b74c2820b529f39fa371ab2bdf42ea3feaaebd08daff274dfb97f241fbfc2&response_type=code&client_id=e4a62faf-4b87-4fea-8565-caaabb3ac918&scope=web%3Acore&access_type=offline&state=dff83b1b57946fc3f1b1a87495f3d9b5a8e8f965a2be56caa21470bf6b73fe75&service_entity=urn%3Aservice-entity%3Apsn&ui=pr&smcid=web-pdc%3Apt-BR%3Adetail-undefined%3Apage%3Alink&redirect_uri=https%3A%2F%2Fweb.np.playstation.com%2Fapi%2Fsession%2Fv1%2Fsession%3Fredirect_uri%3Dhttps%253A%252F%252Fio.playstation.com%252Fcentral%252Fauth%252Flogin%253Flocale%253Dpt_BR%2526postSignInURL%253Dhttps%25253A%25252F%25252Fwww.playstation.com%25252Fpt-br%25252Fgames%25252Fgod-of-war-ragnarok%25252F%2526cancelURL%253Dhttps%25253A%25252F%25252Fwww.playstation.com%25252Fpt-br%25252Fgames%25252Fgod-of-war-ragnarok%25252F%26x-psn-app-ver%3D%2540sie-ppr-web-session%252Fsession%252Fv5.24.0&auth_ver=v3&error=login_required&error_code=4165&error_description=User+is+not+authenticated&no_captcha=false&cid=04ae5a24-971c-4106-acba-8db55c6a1c8a#/signin/ca?entry=ca" target="_blank">Comprar na pré-venda</a>
                     </div>
             </div>
             <div class="right" data-aos="fade-up">
-                <span>Assista ao trailer</span>
+                <span >Assista ao trailer</span>
                 <button>
-                    <img src="./assets/thumbnail.gif" class="thumbnail" alt="thumbnail do trailer">
-                    <img src="./assets/play.svg" class="play" alt="icon play">
+                    <a target="_blank" href="https://youtu.be/EE-4GvjKcfs"><img src="./assets/thumbnail.gif" class="thumbnail" alt="thumbnail do trailer"></a>
+                    <a target="_blank" href="https://youtu.be/EE-4GvjKcfs"><img src="./assets/play.svg" class="play" alt="icon play"></a>
                 </button>
                 <div class="idade">
                     <img src="./assets/faixa-etaria.png" alt="">
@@ -103,7 +103,7 @@
                     Ragnarök
                     se aproxima. Kratos e Atreus terão de escolher entre a segurança deles próprios e a dos reinos.</p>
                 <div class="corp">
-                    <img src="./assets/logo-sta-monica-sony.png" alt="Logo Santa Mônica e Sony">
+                    <a target="_blank" href="https://sms.playstation.com/"><img src="./assets/logo-sta-monica-sony.png" alt="Logo Santa Mônica e Sony"></a>
                     <p>Do Santa Monica Studio, esta é a sequência da aclamada versão de 2018 de God of War.</p>
                 </div>
             </div>
@@ -124,13 +124,13 @@
                     familiarizado com God of War: spoilers à frente.</p>
                 </div>
                 <div class="right" data-aos="fade-left">
-                    <img src="./assets/axel.png" alt="">
+                    <img src="./assets/axel.png" alt="" id="martelo">
                     <div class="text">
-                        <img src="./assets/logo.jpg" alt="">
+                        <img src="./assets/logo.jpg" alt="" id="logotipo">
                         <span>Lançamento dia 09/11/2022</span>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="slide-characters" data-aos="fade-up">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -149,7 +149,7 @@
                         <div class="card-character">
                             <div class="image">
                                 <img src="./assets/atreus.jpg" alt="">
-                                <button>Saiba mais</button>
+                                <button a href="">Saiba mais</button>
                             </div>
                             <div class="info">
                                 <h3>Atreus</h3>
@@ -212,6 +212,11 @@
             </div>
         </div>
     </section>
+
+    <section class="s-base">
+        <h3  data-aos="fade-down">Development by <a target="_blank" href="https://github.com/herbertribeiro19"><strong>Herbert Ribeiro.</strong></a></h3>
+    </section>
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
