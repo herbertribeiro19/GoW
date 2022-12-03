@@ -6,6 +6,7 @@
     background-repeat:no-repeat;
     background-attachment: fixed;
     height: 80rem;
+    overflow: hidden;
     .container{
         display: flex;
         align-items: flex-end;
@@ -176,6 +177,7 @@
     display: flex;
     align-items: center;
     background-color: #000201;
+    overflow: hidden;
     ul{
         display: flex;
         align-items: flex-start;
@@ -420,7 +422,7 @@
 
 .s-base{
     display: flex;
-    padding: 1rem 0;
+    margin-top: 1rem 0;
     padding-bottom: 6rem;
     justify-content: center;
     h3{
@@ -430,9 +432,8 @@
             color: #64D8CD;
         }
     }
-
     @media (max-width: 560px){
-        margin-top: 3rem;
+        margin-top: 3rem 0;
         padding-bottom: 6rem;
         h3{
             font-size: 1.4rem;
