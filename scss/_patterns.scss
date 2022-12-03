@@ -13,6 +13,14 @@
             font-size: 1.8rem;
         }
     }
+    @media (max-width: 991px) {
+        justify-content: center;
+    }
+    @media (max-width: 560px) {
+       span{
+            font-size: 1.6rem;
+       }
+    }
 }
 
 h1{
