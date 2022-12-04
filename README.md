@@ -1,4 +1,4 @@
-# God Of War
+# God Of War - LandingPage PS4 e PS5
 
 > Projeto Real de uma página oficial para o God Of War, jogo exclusivo da Sony, lançado em novembro de 2022.
 
