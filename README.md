@@ -2,11 +2,9 @@
 
 > Projeto Real de uma página oficial para o God Of War, jogo exclusivo da Sony, lançado em novembro de 2022.
 
-![PREVIEW](../preview/preview.png)
-
 [Clique aqui para acessar](https://herbertribeiro19.github.io/GoW)
 
-[Clique aqui para acessar o protótipo no Figma](https://www.figma.com/file/BPHOdrrzDnuvKPurADmIsW/Codeboost---God-of-War-Ragnarok?t=KCFQu1t9xHo5zPi8-6)
+[Clique aqui para acessar o protótipo no Figma](https://www.figma.com/file/Zvq5pK6sMNQvWJccJNKcCU/God-of-War-Ragnarok---UI?node-id=0%3A1&t=oBsh8v4KPsHMcA45-1)
 
 ## Tecnologias utilizadas:
 - HTML;
