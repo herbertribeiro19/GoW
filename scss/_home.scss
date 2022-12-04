@@ -187,6 +187,7 @@
             flex-direction: column;
             align-items: center;
             transition: 0.9s;
+            cursor: pointer;
             span{
                 display: block;
                 text-align: center;
@@ -195,6 +196,7 @@
                 line-height: 160%;
                 margin-top: 12px;
                 color: white;
+                cursor: pointer;
             }
         }
         li:hover{
